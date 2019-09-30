@@ -51,6 +51,27 @@ A browser window will appear showing the contents of the current directory.  Cli
 
 **Step 3:** Complete the project and submit both the Ipython notebook and the project writeup
 
-## How to write a README
-A well written README file can enhance your project and portfolio.  Develop your abilities to create professional README files by completing [this free course](https://www.udacity.com/course/writing-readmes--ud777).
+## The project
+only one source code is call 'P1.ipynb'
+
+we select by Color and cut the Region of interest¶ in step 1
+
+after gaussian blur and canny filter finding the edge
+
+using hough space to find the line insude the edge
+
+by extending the line and recut in the region of interest
+
+we can finally show out the result,
+
+also the the movie will seprately compute for each single frame
+
+three movie will be evaluate
+    solidWhiteRight.mp4
+    solidYellowLeft.mp4
+    challenge.mp4
+    
+the result for the 'challenge' is not quite good.
+
+the future work may focus on the curving road problem.
 
